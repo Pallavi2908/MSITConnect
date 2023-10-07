@@ -1,2 +1,2 @@
-# MSITConnect
-Made by Smart Sampann (Runner-up) @ Code4Cause
+# MSIT.Connect
+made with love by Team Smart Sampann

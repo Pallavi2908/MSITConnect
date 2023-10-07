@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    
+  }
+  
+  .student-profile .card {
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .student-profile .card .card-header .profile_img {
+    justify-content: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  .student-profile .card h3 {
+
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .student-profile .card p {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .student-profile .table th,
+  .student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+  }
+

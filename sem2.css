@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.brief h1{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 3vw;
+    color: rgb(24, 84, 50);
+}
+
+.brief h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+    color: rgb(13, 17, 15);
+    text-decoration: underline;
+    margin-bottom: 4px;
+
+}
+
+
+.tb1{
+
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+.table1 {
+    
+    margin-bottom: 5px;
+    justify-content: center;
+    display: flex;
+    border:none;
+    width: 90%;
+}
+
+.table2{
+    margin-left: 70px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border:1px solid black;
+    width: 90%;
+
+}
+
+th{
+    background-color: rgb(250, 255, 185);
+    height: 70px;
+}
+
+.table1 td {
+    
+    background-color: rgb(245, 237, 225);
+    border: 1px solid #1a1919;
+    padding: 15px;
+  }
+
+  .table2 td {
+    background-color: rgb(239, 239, 245);
+    border: 1px solid #1a1919;
+    padding: 15px;
+  }
+
+
+  
+thead th1{
+    
+    font-weight:400;
+    text-align:center;
+
+    color:white;
+}
+
+thead th2{
+    font-weight:400;
+    text-align:center;
+    background: #d5e84a;
+    color:white;
+}
+  
+.table{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  table .tb1 {
+    background-color: rgb(188, 188, 200);
+    border-collapse: 1px solid #232222;
+  }
+
+  body{
+    background-color: #64ccc5;
+  }
