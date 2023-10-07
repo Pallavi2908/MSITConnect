@@ -6,26 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN FORM</title>
     <link rel="stylesheet" href="styling.css">
-    <link rel="shortcut icon" href="../icon.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
 <body>
-  <!-- <div>
-    <img src="../enva.jpg" alt="envs-msit" class="enva">
-  </div> -->
   <div class="loginform">
-    <form action="">
-          <h1><img src="./logo hkthn.png" height="100px" width="180px" alt=""></h1>
-          <span class="Student">for Student</span>
+    <form action="authenticate_students.php" method="post">
+          <h1>Login</h1>
           <div class="input-box">
-            <input type="text" placeholder="Username" required>
+            <input type="text" id="enrollno" name="enrollno" placeholder="Enrollment No." class="entry">
+
             <i class='bx bx-user'></i>
         </div>
 
 
        <div class="input-box">
-           <input type="password" placeholder="Password" required>
-           <i class='bx bxs-lock-alt' ></i>
+            <input type="password" id="pwd" name="pwd" placeholder="password" class="entry">
+            <i class='bx bxs-lock-alt' ></i>
        </div>
 
        <div class="remember-forgot">
@@ -36,7 +32,7 @@
 
        </div>
 
-       <button type="submit" class="btn"><a href="./index.html">Login</a></button>
+       <button type="submit" class="btn">Login</button>
 
        <div class="register-link">
            <p>Don't have an account?
@@ -45,21 +41,4 @@
     </form>
   </div>
 </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</head>
 </html>
